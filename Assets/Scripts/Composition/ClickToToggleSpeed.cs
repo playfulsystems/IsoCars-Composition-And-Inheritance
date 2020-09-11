@@ -19,11 +19,11 @@ public class ClickToToggleSpeed : MonoBehaviour
         fast = !fast;
         if (fast)
         {
-            moveTowards.SetSpeed(8f);
+            moveTowards.SetSpeed(300f);
         }
         else
         {
-            moveTowards.SetSpeed(3f);
+            moveTowards.SetSpeed(100f);
         }
 
     }

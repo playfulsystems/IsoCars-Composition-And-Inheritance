@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class CarScript : MovingObjectScript
 {
-
     public bool fast = false; 
 
     public void OnMouseDown()
@@ -12,13 +11,12 @@ public class CarScript : MovingObjectScript
         fast = !fast;
         if (fast)
         {
-            SetSpeed(8f);
+            SetSpeed(300f);
         }
         else
         {
-            SetSpeed(3f);
+            SetSpeed(100f);
         }
-
     }
 
 }
