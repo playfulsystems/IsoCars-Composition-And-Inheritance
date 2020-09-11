@@ -189,7 +189,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -262,8 +262,8 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: -1000
-  far clip plane: 1000
+  near clip plane: -10
+  far clip plane: 10
   field of view: 60
   orthographic: 1
   orthographic size: 5
@@ -649,9 +649,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e5918cb010684a85bc64f36254742ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carPrefab: {fileID: 1267817845248390, guid: fcc2e282e3e45400c88f7f57512dd3e4, type: 3}
-  pelletPrefab: {fileID: 1696795384991562, guid: 0d57f587fae1a418386d5246f55c633e,
-    type: 3}
 --- !u!4 &1789651297
 Transform:
   m_ObjectHideFlags: 0
