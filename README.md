@@ -1,2 +1,2 @@
 # IsoCars-Composition-And-Inheritance
- 3D Car game demonstrating composition vs inheritance.
+A 3D car game demonstrating composition vs inheritance.
